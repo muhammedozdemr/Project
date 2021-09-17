@@ -27,7 +27,7 @@
                     <a href="{{route('home')}}" class="nav-link">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
                         <p>
-                            Home
+                            {{trans('translate.Home')}}
                         </p>
                     </a>
                 </li>
@@ -35,7 +35,7 @@
                     <a href="{{route('clients')}}" class="nav-link">
                         <i class="nav-icon fa fa-users"></i>
                         <p>
-                            Clients
+                            {{trans('translate.Clients')}}
                         </p>
                     </a>
                 </li>
@@ -43,7 +43,7 @@
                     <a href="{{route('cars')}}" class="nav-link">
                         <i class="nav-icon fa fa-car"></i>
                         <p>
-                            Cars
+                            {{trans('translate.Cars')}}
                         </p>
                     </a>
                 </li>
